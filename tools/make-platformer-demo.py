@@ -98,7 +98,7 @@ def type_json(base, defaults, components=()):
 
 type_json("Sprite", {"_name": "Player", "spriteKey": "Player.sprite.json", "collision": {"layer": PLAYER, "mask": -1}},
           [{"componentClass": "PhysicsBody", "bodyType": "Dynamic"},
-           {"componentClass": "Platformer", "maxSpeed": 110, "acceleration": 900, "deceleration": 1200, "jumpStrength": 250, "jumpCut": 0.5,
+           {"componentClass": "Platformer", "maxSpeed": 110, "acceleration": 900, "deceleration": 1200, "jumpStrength": 330, "jumpCut": 0.6,
             "coyoteTime": 0.1, "jumpBuffer": 0.1, "floorSnap": 3},
            {"componentClass": "CameraFollow", "smoothing": 0.12, "clamp": True, "boundsLeft": 0, "boundsTop": 0, "boundsRight": LEVEL_W, "boundsBottom": 180},
            {"componentClass": "PlayerRules"}])
