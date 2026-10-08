@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "baseClass": "Label",
+  "defaults": {
+    "text": "You made it!",
+    "fontSize": 14,
+    "screenSpace": true,
+    "visible": false
+  },
+  "components": []
+}

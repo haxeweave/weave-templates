@@ -8,5 +8,12 @@
       "path": "templates/platformer"
     }
   ],
-  "demos": []
+  "demos": [
+    {
+      "id": "platformer",
+      "name": "Platformer demo",
+      "description": "A small complete platform game on Kenney's Pixel Platformer art: coins, slimes to squash, spikes, a flag and a saved best.",
+      "path": "demos/platformer"
+    }
+  ]
 }
