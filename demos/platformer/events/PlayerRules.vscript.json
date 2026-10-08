@@ -105,31 +105,6 @@
       "subRules": []
     },
     {
-      "conditions": [],
-      "actions": [
-        {
-          "scope": "display",
-          "className": "Display",
-          "name": "setCameraPosition",
-          "params": [
-            {
-              "type": "value",
-              "scope": "self",
-              "className": "Node",
-              "name": "getPositionX",
-              "params": [],
-              "returnType": "Float"
-            },
-            {
-              "type": "literal",
-              "value": 90
-            }
-          ]
-        }
-      ],
-      "subRules": []
-    },
-    {
       "conditions": [
         {
           "scope": "Player",

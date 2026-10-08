@@ -12,7 +12,13 @@
     {
       "componentClass": "Platformer",
       "wallSlideSpeed": 120,
-      "wallJump": true
+      "wallJump": true,
+      "maxSpeed": 220,
+      "acceleration": 1500,
+      "deceleration": 1500,
+      "jumpStrength": 520,
+      "floorSnap": 4,
+      "wallJumpAway": 220
     },
     {
       "componentClass": "PlayerRules"

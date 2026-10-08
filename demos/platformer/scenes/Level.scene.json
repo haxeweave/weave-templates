@@ -8,8 +8,8 @@
     {
       "id": "e0000000-0000-4000-8000-000000000002",
       "parent": "e0000000-0000-4000-8000-000000000001",
-      "name": "Sky",
-      "type": "Tilemap",
+      "name": "Sky1",
+      "type": "Sky",
       "tilesetKey": "assets/tiles/Sky.tileset.json",
       "cellWidth": 24,
       "cellHeight": 24,

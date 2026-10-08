@@ -85,6 +85,9 @@ for n, (key, (pack, f)) in enumerate(SOUNDS.items()):
     assets.append({"uuid": uid(900 + n), "key": key, "path": "assets/sounds/%s.ogg" % key})
 write("assets.json", {"schemaVersion": 1, "assets": assets})
 
+# The level's width in pixels, for the camera's bounds; the level itself is below.
+LEVEL_W = 78 * 18
+
 # ── collision layers, as bits ──
 PLAYER, PICKUP, SOLID, ENEMY, HAZARD = 1, 2, 4, 8, 16
 
@@ -97,6 +100,7 @@ type_json("Sprite", {"_name": "Player", "spriteKey": "Player.sprite.json", "coll
           [{"componentClass": "PhysicsBody", "bodyType": "Dynamic"},
            {"componentClass": "Platformer", "maxSpeed": 110, "acceleration": 900, "deceleration": 1200, "jumpStrength": 250, "jumpCut": 0.5,
             "coyoteTime": 0.1, "jumpBuffer": 0.1, "floorSnap": 3},
+           {"componentClass": "CameraFollow", "smoothing": 0.12, "clamp": True, "boundsLeft": 0, "boundsTop": 0, "boundsRight": LEVEL_W, "boundsBottom": 180},
            {"componentClass": "PlayerRules"}])
 type_json("Sprite", {"_name": "Slime", "spriteKey": "Slime.sprite.json", "collision": {"layer": ENEMY, "mask": PLAYER}},
           [{"componentClass": "Patrol", "axis": "Horizontal", "distance": 54, "speed": 28}, {"componentClass": "SlimeRules"}])
@@ -170,7 +174,9 @@ def place(name, type_name, x, y, **extra):
     o = dict({"id": uid(n[0]), "parent": uid(1), "name": name, "type": type_name, "x": x, "y": y}, **extra)
     objects.append(o)
     return o
-objects.append({"id": uid(2), "parent": uid(1), "name": "Sky", "type": "Tilemap", "tilesetKey": "assets/tiles/Sky.tileset.json",
+# The backdrop is a Type of its own, since a behaviour belongs to a Type: a tile map that slides at parallax.
+type_json("Tilemap", {"_name": "Sky"}, [{"componentClass": "Parallax", "factorX": 0.4, "factorY": 1}])
+objects.append({"id": uid(2), "parent": uid(1), "name": "Sky1", "type": "Sky", "tilesetKey": "assets/tiles/Sky.tileset.json",
                 "cellWidth": BACK, "cellHeight": BACK, "cells": back_cells})
 objects.append({"id": uid(3), "parent": uid(1), "name": "Ground", "type": "Tilemap", "tilesetKey": "assets/tiles/Ground.tileset.json",
                 "cellWidth": CELL, "cellHeight": CELL, "cells": cells})
@@ -223,8 +229,6 @@ player_rules = [
     rule([inp("Move Right")], [comp("Player", "Platformer", "moveRight")]),
     rule([inp("Jump")], [comp("Player", "Platformer", "jump")]),
     rule([inp("Move Down")], [comp("Player", "Platformer", "holdDown")]),
-    # The camera follows along the level, at the level's own height.
-    rule([], [line("display", "Display", "setCameraPosition", player_x, lit(90))]),
     # Animation from the Platformer's state: a jump, a landing, running or standing.
     rule([comp("Player", "Platformer", "onJumped")], [line("Player", "Sprite", "setAnimation", s("jump")), line("audio", "Audio", "playSound", s("jump"))]),
     rule([comp("Player", "Platformer", "onStartedFalling")], [line("Player", "Sprite", "setAnimation", s("jump"))]),
