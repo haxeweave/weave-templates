@@ -1,0 +1,109 @@
+{
+  "rules": [
+    {
+      "conditions": [
+        {
+          "scope": "input",
+          "className": "Input",
+          "name": "isActionOn",
+          "params": [
+            {
+              "type": "literal",
+              "value": "Move Left",
+              "valueKind": "string"
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "scope": "Player",
+          "className": "Platformer",
+          "name": "moveLeft",
+          "params": [],
+          "onComponent": true
+        }
+      ],
+      "subRules": []
+    },
+    {
+      "conditions": [
+        {
+          "scope": "input",
+          "className": "Input",
+          "name": "isActionOn",
+          "params": [
+            {
+              "type": "literal",
+              "value": "Move Right",
+              "valueKind": "string"
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "scope": "Player",
+          "className": "Platformer",
+          "name": "moveRight",
+          "params": [],
+          "onComponent": true
+        }
+      ],
+      "subRules": []
+    },
+    {
+      "conditions": [
+        {
+          "scope": "input",
+          "className": "Input",
+          "name": "isActionOn",
+          "params": [
+            {
+              "type": "literal",
+              "value": "Jump",
+              "valueKind": "string"
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "scope": "Player",
+          "className": "Platformer",
+          "name": "jump",
+          "params": [],
+          "onComponent": true
+        }
+      ],
+      "subRules": []
+    },
+    {
+      "conditions": [
+        {
+          "scope": "input",
+          "className": "Input",
+          "name": "isActionOn",
+          "params": [
+            {
+              "type": "literal",
+              "value": "Move Down",
+              "valueKind": "string"
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "scope": "Player",
+          "className": "Platformer",
+          "name": "holdDown",
+          "params": [],
+          "onComponent": true
+        }
+      ],
+      "subRules": []
+    }
+  ],
+  "vars": []
+}

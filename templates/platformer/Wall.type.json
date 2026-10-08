@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "baseClass": "Sprite",
+  "defaults": {
+    "spriteKey": "Wall.sprite.json"
+  },
+  "components": [
+    {
+      "componentClass": "PhysicsBody",
+      "bodyType": "Static"
+    },
+    {
+      "componentClass": "PlatformerWall"
+    }
+  ]
+}

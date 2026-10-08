@@ -1,0 +1,30 @@
+# Weave templates and demos
+
+The projects the Weave editor offers under **New project… ▸ Start from**. The
+editor fetches this repository when that dialog opens and copies the chosen
+folder into the new project, so nothing here is built into the editor.
+
+## Layout
+
+- `index.json` — what is on offer. `templates` are starting points; `demos`
+  are whole games to open and take apart. Each entry has an `id`, a `name`, a
+  one-line `description` and the `path` of its folder.
+- `templates/<id>/` — one complete Weave project each: `project.json`, Object
+  Types (`*.type.json`), their sprites (`*.sprite.json`), scenes and visual
+  scripts. No generated `.hx` files: the editor writes those when it creates
+  the project, from the current code generator.
+- `demos/<id>/` — the same shape, for games rather than starting points. None
+  yet.
+
+## Adding one
+
+Make the project in the editor, copy its folder here without the generated
+`.hx` files and without `typeTextures.json`, and add an entry to `index.json`.
+The Weave repository's integration tests fetch this repository and compile
+every entry against the engine, so a template that no longer builds is caught
+there.
+
+## Licence
+
+Everything in this repository is dedicated to the public domain under
+[CC0 1.0](LICENSE): a game started from a template owes nothing to anyone.

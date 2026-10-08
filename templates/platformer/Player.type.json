@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 2,
+  "baseClass": "Sprite",
+  "defaults": {
+    "spriteKey": "Player.sprite.json"
+  },
+  "components": [
+    {
+      "componentClass": "PhysicsBody",
+      "bodyType": "Dynamic"
+    },
+    {
+      "componentClass": "Platformer",
+      "wallSlideSpeed": 120,
+      "wallJump": true
+    },
+    {
+      "componentClass": "PlayerRules"
+    }
+  ]
+}

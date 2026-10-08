@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "templates": [
+    {
+      "id": "platformer",
+      "name": "Platformer",
+      "description": "A player that runs and jumps, ground to stand on, a wall to slide down and jump off, a ledge to drop through.",
+      "path": "templates/platformer"
+    }
+  ],
+  "demos": []
+}

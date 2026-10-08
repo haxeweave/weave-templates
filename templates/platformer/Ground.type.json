@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "baseClass": "Sprite",
+  "defaults": {
+    "spriteKey": "Ground.sprite.json"
+  },
+  "components": [
+    {
+      "componentClass": "PhysicsBody",
+      "bodyType": "Static"
+    }
+  ]
+}

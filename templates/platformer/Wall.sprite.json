@@ -1,0 +1,57 @@
+{
+  "width": 32,
+  "height": 32,
+  "colorMode": "rgba",
+  "palette": [],
+  "layers": [
+    {
+      "id": "c88662dc-8a33-53bc-a71c-bc6c701076cb",
+      "name": "Layer 1",
+      "visible": true,
+      "opacity": 1,
+      "locked": false,
+      "blendMode": "normal",
+      "reference": false
+    }
+  ],
+  "animations": [
+    {
+      "id": "42f25056-e7db-5296-8365-28b60a0db5d5",
+      "name": "idle",
+      "loop": true,
+      "playMode": "loop",
+      "repeatTo": 0,
+      "repeatCount": 0,
+      "collision": [
+        {
+          "name": "body",
+          "kind": "box",
+          "cx": 16.0,
+          "cy": 16.0,
+          "w": 32,
+          "h": 32
+        }
+      ],
+      "points": [],
+      "collisionShared": true,
+      "pointsShared": false,
+      "frames": [
+        {
+          "id": "a846a48a-7382-59e1-8753-73e533c9fde0",
+          "duration": 100,
+          "pivotX": 0.5,
+          "pivotY": 0.5,
+          "collision": [],
+          "points": []
+        }
+      ]
+    }
+  ],
+  "cels": [
+    {
+      "layerId": "c88662dc-8a33-53bc-a71c-bc6c701076cb",
+      "frameId": "a846a48a-7382-59e1-8753-73e533c9fde0",
+      "pixels": "loqC/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/VEpG/4BzbP+WioL/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/1RKRv+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+WioL/gHNs/4BzbP+Ac2z/gHNs/4BzbP9USkb/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/5aKgv+Ac2z/gHNs/4BzbP+Ac2z/VEpG/4BzbP+WioL/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/1RKRv+Ac2z/gHNs/5aKgv+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP9USkb/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/5aKgv+Ac2z/gHNs/4BzbP+Ac2z/VEpG/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/loqC/4BzbP+Ac2z/gHNs/1RKRv+Ac2z/gHNs/5aKgv+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP9USkb/gHNs/4BzbP+Ac2z/loqC/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/VEpG/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/loqC/4BzbP+Ac2z/gHNs/1RKRv+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+WioL/gHNs/4BzbP9USkb/gHNs/4BzbP+Ac2z/loqC/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/VEpG/4BzbP+Ac2z/gHNs/4BzbP+WioL/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/4BzbP+Ac2z/gHNs/4BzbP+WioL/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/VEpG/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/5aKgv+Ac2z/gHNs/4BzbP+Ac2z/gHNs/1RKRv+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP9USkb/gHNs/5aKgv+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/VEpG/4BzbP+Ac2z/loqC/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/5aKgv+Ac2z/gHNs/4BzbP+Ac2z/gHNs/1RKRv+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/loqC/4BzbP+Ac2z/gHNs/4BzbP9USkb/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/VEpG/4BzbP+Ac2z/loqC/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/1RKRv+Ac2z/gHNs/4BzbP+WioL/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/loqC/4BzbP+Ac2z/gHNs/4BzbP9USkb/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+WioL/gHNs/4BzbP+Ac2z/VEpG/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/1RKRv+Ac2z/gHNs/4BzbP+WioL/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP9USkb/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+WioL/gHNs/4BzbP+Ac2z/VEpG/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/5aKgv+Ac2z/gHNs/1RKRv+Ac2z/gHNs/4BzbP+Ac2z/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/5aKgv+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP9USkb/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/loqC/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/VEpG/5aKgv+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/1RKRv+Ac2z/loqC/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP9USkb/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/loqC/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/VEpG/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+WioL/gHNs/4BzbP+Ac2z/gHNs/1RKRv+Ac2z/loqC/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP9USkb/gHNs/4BzbP+WioL/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/VEpG/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+WioL/gHNs/4BzbP+Ac2z/gHNs/1RKRv+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/5aKgv+Ac2z/gHNs/4BzbP9USkb/gHNs/4BzbP+WioL/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/VEpG/4BzbP+Ac2z/gHNs/5aKgv+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/1RKRv+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/5aKgv+Ac2z/gHNs/4BzbP9USkb/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/loqC/4BzbP+Ac2z/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP9USkb/loqC/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/VEpG/4BzbP+WioL/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/loqC/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/1RKRv+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+WioL/gHNs/4BzbP+Ac2z/gHNs/4BzbP9USkb/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/VEpG/4BzbP+WioL/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/1RKRv+Ac2z/gHNs/5aKgv+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+WioL/gHNs/4BzbP+Ac2z/gHNs/4BzbP9USkb/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/5aKgv+Ac2z/gHNs/4BzbP+Ac2z/VEpG/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/1RKRv+Ac2z/gHNs/5aKgv+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP9USkb/gHNs/4BzbP+Ac2z/loqC/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/5aKgv+Ac2z/gHNs/4BzbP+Ac2z/VEpG/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/loqC/4BzbP+Ac2z/gHNs/1RKRv+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP9USkb/gHNs/4BzbP+Ac2z/loqC/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/gHNs/4BzbP+Ac2z/VEpG/4BzbP+Ac2z/gHNs/4BzbP9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/1RKRv9USkb/VEpG/w=="
+    }
+  ]
+}
