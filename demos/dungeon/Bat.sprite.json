@@ -1,0 +1,58 @@
+{
+  "width": 16,
+  "height": 16,
+  "colorMode": "rgba",
+  "palette": [],
+  "layers": [
+    {
+      "id": "d1000000-0000-4000-8000-000000000104",
+      "name": "Layer 1",
+      "visible": true,
+      "opacity": 1,
+      "locked": false,
+      "blendMode": "normal",
+      "reference": false
+    }
+  ],
+  "animations": [
+    {
+      "id": "d1000000-0000-4000-8000-000000000106",
+      "name": "fly",
+      "loop": true,
+      "playMode": "loop",
+      "repeatTo": 0,
+      "repeatCount": 0,
+      "collision": [
+        {
+          "name": "body",
+          "kind": "box",
+          "cx": 8,
+          "cy": 8,
+          "w": 12,
+          "h": 10,
+          "sensor": true
+        }
+      ],
+      "points": [],
+      "collisionShared": true,
+      "pointsShared": false,
+      "frames": [
+        {
+          "id": "d1000000-0000-4000-8000-000000000105",
+          "duration": 400,
+          "pivotX": 0.5,
+          "pivotY": 0.5,
+          "collision": [],
+          "points": []
+        }
+      ]
+    }
+  ],
+  "cels": [
+    {
+      "layerId": "d1000000-0000-4000-8000-000000000104",
+      "frameId": "d1000000-0000-4000-8000-000000000105",
+      "pixels": "/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////zEmP/8xJj//MSY//zEmP/8xJj//MSY///////////////////////////////////////8xJj//MSY//zEmP/8xJj//MSY//zEmP/8xJj//MSY//zEmP/8xJj//MSY//zEmP/////////////////8xJj//MSY//zEmP/8xJj//MSY//2yl6v8xJj//MSY//2yl6v8xJj//MSY//zEmP/8xJj//MSY///////8xJj//MSY//zEmP/9KbL3/MSY//zEmP/9KbL3/bKXq/2yl6v9KbL3/MSY//zEmP/9KbL3/MSY//zEmP/8xJj//MSY//zEmP/9KbL3/Smy9/0psvf82O3b/bKXq/2yl6v9sper/bKXq/zY7dv9KbL3/Smy9/0psvf8xJj//MSY//zEmP/8xJj//Smy9/0psvf9KbL3/Njt2//////9sper/bKXq//////82O3b/Smy9/0psvf9KbL3/MSY//zEmP/8xJj//MSY//0psvf9KbL3/bKXq/0psvf9sper/bKXq/2yl6v9sper/Smy9/2yl6v9KbL3/Smy9/zEmP/8xJj//MSY//zEmP/9KbL3/Smy9/0psvf8xJj//bKXq/2yl6v9sper/bKXq/zEmP/9KbL3/Smy9/0psvf8xJj//MSY//zEmP/8xJj//bKXq/zEmP/9sper/MSY//0psvf9KbL3/Smy9/0psvf8xJj//bKXq/zEmP/9sper/MSY//zEmP/8xJj//MSY//zEmP/8xJj//MSY//zEmP/9sper/MSY//zEmP/9sper/MSY//zEmP/8xJj//MSY//zEmP/8xJj///////zEmP/8xJj//MSY//zEmP/8xJj//MSY//zEmP/8xJj//MSY//zEmP/8xJj//MSY//zEmP/8xJj//////////////////////////////////MSY//zEmP/8xJj//MSY//zEmP/8xJj///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w=="
+    }
+  ]
+}

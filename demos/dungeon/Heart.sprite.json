@@ -1,0 +1,48 @@
+{
+  "width": 16,
+  "height": 16,
+  "colorMode": "rgba",
+  "palette": [],
+  "layers": [
+    {
+      "id": "d1000000-0000-4000-8000-000000000122",
+      "name": "Layer 1",
+      "visible": true,
+      "opacity": 1,
+      "locked": false,
+      "blendMode": "normal",
+      "reference": false
+    }
+  ],
+  "animations": [
+    {
+      "id": "d1000000-0000-4000-8000-000000000124",
+      "name": "still",
+      "loop": true,
+      "playMode": "loop",
+      "repeatTo": 0,
+      "repeatCount": 0,
+      "collision": [],
+      "points": [],
+      "collisionShared": true,
+      "pointsShared": false,
+      "frames": [
+        {
+          "id": "d1000000-0000-4000-8000-000000000123",
+          "duration": 400,
+          "pivotX": 0.5,
+          "pivotY": 0.5,
+          "collision": [],
+          "points": []
+        }
+      ]
+    }
+  ],
+  "cels": [
+    {
+      "layerId": "d1000000-0000-4000-8000-000000000122",
+      "frameId": "d1000000-0000-4000-8000-000000000123",
+      "pixels": "/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////xkZI/8ZGSP/GRkj//////////////////////8ZGSP/GRkj/xkZI////////////////////////////xkZI/9NSOT/TUjk/01I5P8ZGSP///////////8ZGSP/TUjk/01I5P9NSOT/GRkj/////////////////xkZI/9NSOT/TUjk/76+//9NSOT/TUjk/xkZI/8ZGSP/GRkj/01I5P9NSOT/TUjk/01I5P8ZGSP///////////8ZGSP/TUjk/76+//9NSOT/TUjk/01I5P9NSOT/TUjk/01I5P9NSOT/TUjk/01I5P9NSOT/GRkj////////////GRkj/01I5P9NSOT/TUjk/01I5P9NSOT/TUjk/01I5P9NSOT/TUjk/01I5P9NSOT/TUjk/xkZI/////////////////8ZGSP/TUjk/01I5P9NSOT/TUjk/01I5P9NSOT/TUjk/01I5P9NSOT/TUjk/xkZI////////////////////////////xkZI/9NSOT/TUjk/01I5P9NSOT/TUjk/01I5P9NSOT/TUjk/xkZI///////////////////////////////////////GRkj/01I5P9NSOT/TUjk/01I5P9NSOT/TUjk/xkZI/////////////////////////////////////////////////8ZGSP/TUjk/01I5P9NSOT/TUjk/xkZI////////////////////////////////////////////////////////////xkZI/9NSOT/TUjk/xkZI///////////////////////////////////////////////////////////////////////GRkj/xkZI////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w=="
+    }
+  ]
+}
